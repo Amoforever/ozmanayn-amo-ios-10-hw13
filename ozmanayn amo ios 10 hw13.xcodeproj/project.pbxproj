@@ -12,6 +12,9 @@
 		CE91DEE62A60383700C9A437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91DEE52A60383700C9A437 /* ViewController.swift */; };
 		CE91DEEB2A60383800C9A437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91DEEA2A60383800C9A437 /* Assets.xcassets */; };
 		CE91DEEE2A60383800C9A437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE91DEEC2A60383800C9A437 /* LaunchScreen.storyboard */; };
+		CE91DEF72A603A5400C9A437 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91DEF62A603A5400C9A437 /* Model.swift */; };
+		CE91DEFB2A603AA600C9A437 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91DEFA2A603AA600C9A437 /* CustomTableViewCell.swift */; };
+		CE91DEFD2A603AC300C9A437 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91DEFC2A603AC300C9A437 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CE91DEEA2A60383800C9A437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE91DEED2A60383800C9A437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE91DEEF2A60383800C9A437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE91DEF62A603A5400C9A437 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE91DEFA2A603AA600C9A437 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE91DEFC2A603AC300C9A437 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CE91DEF52A60394900C9A437 /* App */,
-				CE91DEE52A60383700C9A437 /* ViewController.swift */,
-				CE91DEEA2A60383800C9A437 /* Assets.xcassets */,
-				CE91DEEC2A60383800C9A437 /* LaunchScreen.storyboard */,
-				CE91DEEF2A60383800C9A437 /* Info.plist */,
+				CE91DEF82A603A5800C9A437 /* Sources */,
+				CE91DEF92A603A6600C9A437 /* Resources */,
 			);
 			path = "ozmanayn amo ios 10 hw13";
 			sourceTree = "<group>";
@@ -70,6 +74,27 @@
 				CE91DEE12A60383700C9A437 /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		CE91DEF82A603A5800C9A437 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE91DEF62A603A5400C9A437 /* Model.swift */,
+				CE91DEE52A60383700C9A437 /* ViewController.swift */,
+				CE91DEFA2A603AA600C9A437 /* CustomTableViewCell.swift */,
+				CE91DEFC2A603AC300C9A437 /* DetailViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CE91DEF92A603A6600C9A437 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE91DEEF2A60383800C9A437 /* Info.plist */,
+				CE91DEEC2A60383800C9A437 /* LaunchScreen.storyboard */,
+				CE91DEEA2A60383800C9A437 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +113,8 @@
 			dependencies = (
 			);
 			name = "ozmanayn amo ios 10 hw13";
+			packageProductDependencies = (
+			);
 			productName = "ozmanayn amo ios 10 hw13";
 			productReference = CE91DEDE2A60383700C9A437 /* ozmanayn amo ios 10 hw13.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +143,8 @@
 				Base,
 			);
 			mainGroup = CE91DED52A60383700C9A437;
+			packageReferences = (
+			);
 			productRefGroup = CE91DEDF2A60383700C9A437 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,8 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE91DEE62A60383700C9A437 /* ViewController.swift in Sources */,
+				CE91DEFB2A603AA600C9A437 /* CustomTableViewCell.swift in Sources */,
 				CE91DEE22A60383700C9A437 /* AppDelegate.swift in Sources */,
+				CE91DEFD2A603AC300C9A437 /* DetailViewController.swift in Sources */,
 				CE91DEE42A60383700C9A437 /* SceneDelegate.swift in Sources */,
+				CE91DEF72A603A5400C9A437 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ozmanayn amo ios 10 hw13/Info.plist";
+				INFOPLIST_FILE = "ozmanayn amo ios 10 hw13/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,7 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ozmanayn amo ios 10 hw13/Info.plist";
+				INFOPLIST_FILE = "ozmanayn amo ios 10 hw13/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
