@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  SceneDelegate.swift
 //  ozmanayn amo ios 10 hw13
 //
 //  Created by Amahastla on 13.07.2023.
@@ -9,8 +9,6 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -33,4 +31,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
